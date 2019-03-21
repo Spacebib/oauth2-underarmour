@@ -8,7 +8,7 @@ This package provides Under Armour OAuth 2.0 support for the PHP League's [OAuth
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using \Clyer\OAuth2\Client\Provider\UnderArmour as the provider.
+Usage is the same as The League's OAuth client, using `\Clyer\OAuth2\Client\Provider\UnderArmour` as the provider.
 
 ### Authorization Code Flow
 
@@ -67,3 +67,7 @@ Under Armour is currently not using scopes.
 ## Testing
 
 `$ ./vendor/bin/phpunit`
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/Spacebib/oauth2-underarmour/blob/master/LICENSE) for more information.
