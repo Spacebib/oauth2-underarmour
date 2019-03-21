@@ -1,0 +1,31 @@
+{
+    "name": "clyer/oauth-underarmour",
+    "description": "Under Armour OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "clyer",
+            "email": "clyersun@gmail.com"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.4"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clyer\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Clyer\\OAuth2\\Client\\Test\\": "tests/src/"
+        }
+    }
+}
