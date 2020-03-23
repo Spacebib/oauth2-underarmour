@@ -1,14 +1,8 @@
 {
-    "name": "clyer/oauth-underarmour",
+    "name": "spacebib/oauth-underarmour",
     "description": "Under Armour OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "clyer",
-            "email": "clyersun@gmail.com"
-        }
-    ],
     "require": {
         "league/oauth2-client": "^2.4"
     },
