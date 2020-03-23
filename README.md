@@ -8,12 +8,12 @@ This package provides Under Armour OAuth 2.0 support for the PHP League's [OAuth
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\Clyer\OAuth2\Client\Provider\UnderArmour` as the provider.
+Usage is the same as The League's OAuth client, using `\Spacebib\OAuth2\Client\Provider\UnderArmour` as the provider.
 
 ### Authorization Code Flow
 
 ```php
-$provider = new Clyer\OAuth2\Client\Provider\UnderArmour([
+$provider = new Spacebib\OAuth2\Client\Provider\UnderArmour([
     'clientId'          => '{underarmour-client-id}',
     'clientSecret'      => '{underarmour-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',

@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: yangkaiwei
- * Date: 2019-03-20
- * Time: 17:03
- */
 
-namespace Clyer\OAuth2\Client\Test\provider;
+namespace Spacebib\OAuth2\Client\Test\provider;
 
-use Clyer\OAuth2\Client\Provider\UnderArmour;
+use Spacebib\OAuth2\Client\Provider\UnderArmour;
 use Mockery as m;
 
 class UnderArmourTest extends \PHPUnit_Framework_TestCase

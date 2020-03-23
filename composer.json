@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Clyer\\OAuth2\\Client\\": "src/"
+            "Spacebib\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Clyer\\OAuth2\\Client\\Test\\": "tests/src/"
+            "Spacebib\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     }
 }
