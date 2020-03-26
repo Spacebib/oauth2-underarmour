@@ -10,7 +10,7 @@ use Psr\Http\Message\ResponseInterface;
 class UnderArmour extends AbstractProvider
 {
     const API_VERSION = '/v7.1';
-    const DOMAIN = 'https://www.mapmyfitness.com';
+    const DOMAIN = 'https://oauth2-api.mapmyapi.com';
 
     /**
      * Returns the base URL for authorizing a client.
