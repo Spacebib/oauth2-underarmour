@@ -4,7 +4,7 @@ This package provides Under Armour OAuth 2.0 support for the PHP League's [OAuth
 
 ## Installation
 
-``
+`composer require spacebib/oauth-underarmour`
 
 ## Usage
 
