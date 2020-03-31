@@ -58,7 +58,7 @@ class UnderArmour extends AbstractProvider
      */
     protected function getDefaultScopes()
     {
-        return [ ];
+        return null;
     }
 
     /**
